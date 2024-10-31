@@ -1,0 +1,31 @@
+.bg-green{
+    background-color: #274E38;
+}
+.order-completed {
+    text-align: left;
+    padding: 20px;
+  }
+ 
+  .hero {
+    height: 400px;
+    background: url('./images/Rectangle\ 11.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: black;
+}
+
+.hero .content {
+    padding-left: 40px;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #555;
+}

@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #f8f9fa;
+    font-family: "Montserrat", sans-serif;
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-control,
+.form-select {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px 12px;
+    font-size: 14px;
+}
+
+.form-control::placeholder,
+.form-select::placeholder {
+    color: #adb5bd;
+}
+
+.btn-proceed {
+    color: white;
+    background-color: #274e38;
+    border-color: #28a745;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn-proceed:hover {
+    color: white;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.features {
+    margin-top: 30px;
+}
+
+.feature-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.form-check-input {
+    width: 18px;
+    height: 18px;
+    margin-top: 0.2em;
+}
+
+.form-check-label {
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.table td {
+    padding: 8px 0;
+    border: none;
+}
+
+.order-total {
+    border-top: 1px solid #dee2e6;
+    font-weight: 600;
+}
+
+
+
+.newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.newsletter button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #218838;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.plant-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plant-image img {
+    max-width: 500px;
+    height: auto;
+}
+
+
+.hero {
+    height: 400px;
+    background: url('./images/Rectangle\ 11.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: black;
+}
+
+.hero .content {
+    padding-left: 40px;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+
+
+/* Check out styling  */
+
+.payment-option {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.payment-option.selected {
+    border-color: #28a745;
+}
+.payment-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+#card-form {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* End  */
+
+.footer {
+    background-color: #274e38;
+    color: white;
+    padding: 40px 20px;
+}
+
+/* Collection  */
+.card {
+    border: none;
+    text-align: center;
+}
+.card-title {
+    font-weight: bold;
+}
+.plant-img {
+    height: 100%;
+    object-fit: cover;
+
+}
+.card:hover{
+    cursor: pointer;
+    scale: 1.1;
+    margin: 10px;
+}

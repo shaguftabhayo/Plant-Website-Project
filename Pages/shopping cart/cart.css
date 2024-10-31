@@ -1,0 +1,79 @@
+
+
+
+.hero {
+    height: 400px;
+    background: url('../images/Rectangle\ 11.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: black;
+}
+
+.hero .content {
+    padding-left: 40px;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cart-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.quantity-control {
+    width: 120px;
+}
+.remove-item {
+    cursor: pointer;
+}
+.cart-header {
+    background-color: #f8f9fa;
+}
+
+
+
+.footer {
+    background-color: #274e38;
+    color: white;
+    padding: 40px 20px;
+}
+
+/* Collection  */
+.card {
+    border: none;
+    text-align: center;
+}
+.card-title {
+    font-weight: bold;
+}
+.plant-img {
+    height: 100%;
+    object-fit: cover;
+}
