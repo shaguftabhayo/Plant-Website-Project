@@ -16,6 +16,9 @@
   cursor: pointer;
 }
 
+body:has(.header:sticky) .header {
+  background-color: #333; /* Your desired background color */
+}
 .gray {
   background-color: #F5F7F3;
 }
